@@ -10,6 +10,8 @@ public class DaShit {
 	public static String numbers = "123456789";
 	public static String goofyCharacters = "!\"#¤%&/()=?";
 	
+	private static Random r = new Random();
+	
 	public static String GeneratePassword(int length) {
 		
 		String password = "";
@@ -22,7 +24,6 @@ public class DaShit {
 	}
 	
 	public static char GenerateRandomCharacter(){ 
-		Random r = new Random();
 		
 		String charactersToUse = "";
 		
